@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu,
+.quangcao {
+    width: 25%;
+    float: left;
+}
+
+.noidung {
+    width: 50%;
+    float: left;
+}
+
+.banner {
+    border: 1px rgb(17, 172, 238) groove;
+    margin: 40px 40px 20px 60px;
+    text-align: center;
+    background-color: rgb(17, 157, 238);
+    width: 97%;
+    margin: 0px auto;
+}
+
+.name_banner {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    width: 98%;
+}
+
+.h1 {
+    color: white;
+    background-color: rgb(14, 7, 10);
+    border-radius: 7%;
+    border: 1px dashed rgb(15, 15, 16);
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 20px 15px 20px 15px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.root>li a {
+    text-decoration: none;
+    color: rgb(1, 29, 5);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+
+.menu_web {
+    width: 97%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.root>li>a:hover {
+    background-color: rgb(41, 43, 36);
+    color: white;
+    transform: ease-in 0.35s;
+}
+
+.submenu {
+    width: 250px;
+    background-color: #abd30b;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+}
+
+.root>li:hover .submenu {
+    display: block;
+    background-color: #0babd3;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
+
+.submenu li a:hover {
+    background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+
+.noidung img {
+    width: 300px;
+    height: 400px;
+}
+
+.noidung table tr td p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.noidung table tr td p:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.quangcao img {
+    width: 200px;
+    height: 250px;
+}
+
+footer {
+    text-align: center;
+}
